@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+.users-container {
+  display: flex;
+  padding: 1em 10em;
+}
+
+app-user-info {
+  display: block;
+  width: 300px;
+  margin-left: 1em;
+}
+
+app-users {
+  flex: 1;
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,4 @@
+<section class="users-container">
+  <app-users [users]="users$ | async" (active)="setActive($event)"></app-users>
+  <app-user-info [active]="active$ | async" (update)="update($event)"></app-user-info>
+</section>
